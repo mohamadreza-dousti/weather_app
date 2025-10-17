@@ -1,5 +1,5 @@
 import requests
-from base import weather_app_data
+from .base import weather_app_data
 
 class OpenWeather(weather_app_data):
     __url = "https://api.openweathermap.org/data/2.5/weather"
@@ -20,13 +20,7 @@ class OpenWeather(weather_app_data):
                 f"temp min:{result["temp_min"]}\ntemp max:{result["temp_max"]}\nsea level:{result["sea_level"]}")
 
 
-if __name__ == "__main__":
-    weather_obj = OpenWeather("Tehran")#city_name, api_key
-    result_tehran = weather_obj.get_weather()
-    print(result_tehran, "\n")
-    weather_obj = OpenWeather("Ardabil")#city_name, api_key
-    result_ardabil = weather_obj.get_weather()
-    print(result_ardabil, "\n")
+
 
 
 

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/weather_data/__init__.py
+src/weather_data/base.py
+src/weather_data/main.py
+src/weather_data.egg-info/PKG-INFO
+src/weather_data.egg-info/SOURCES.txt
+src/weather_data.egg-info/dependency_links.txt
+src/weather_data.egg-info/requires.txt
+src/weather_data.egg-info/top_level.txt
